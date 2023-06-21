@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: 'var(--font-roboto)',
+        orbitron: 'var(--font-orbitron)',
+      },
+      colors: {
+        bg: '#121214',
+        purple: '#8257e5',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
